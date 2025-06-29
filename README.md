@@ -10,9 +10,6 @@
 
 <div align="center">
  
- 🔭 I’m currently working in studying 
- 
- 🌱 I’m currently learning REACT
 
 💬 Ask me about **Node.js, React, Express.js ... or anything [here](https://github.com/rehman-al)**
 

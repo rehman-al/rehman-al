@@ -27,18 +27,24 @@
 ```apex
 public with sharing class RehmanAli extends Developer {
 
-    public String       location = 'Pakistan 🇵🇰';
-    public List<String> roles    = new List<String>{ 'Salesforce Developer', 'MERN Stack Developer' };
+    String location = 'Pakistan';
 
-    public Map<String, List<String>> stack = new Map<String, List<String>>{
-        'salesforce' => new List<String>{ 'Apex', 'LWC', 'Flow', 'REST APIs' },
-        'clouds'     => new List<String>{ 'Sales', 'Service', 'Experience', 'Data', 'Marketing', 'Order Management' },
-        'web'        => new List<String>{ 'MongoDB', 'Express', 'React', 'Node.js' }
+    List<String> roles = new List<String>{
+        'Salesforce Developer',
+        'MERN Stack Developer'
+    };
+
+    Map<String, List<String>> stack = new Map<String, List<String>>{
+        'salesforce' => new List<String>{ 'Apex', 'LWC', 'Flow', 'REST' },
+        'clouds'     => new List<String>{ 'Sales', 'Service', 'Experience',
+                                          'Data', 'Marketing', 'OMS' },
+        'web'        => new List<String>{ 'MongoDB', 'Express', 'React', 'Node' }
     };
 
     @AuraEnabled
     public static String motto() {
-        return 'Building scalable Salesforce solutions, integrations and modern web applications.';
+        return 'Building scalable Salesforce solutions, '
+             + 'integrations and modern web applications.';
     }
 }
 ```
@@ -55,7 +61,7 @@ public with sharing class RehmanAli extends Developer {
     <td align="center" width="96"><img src="./assets/salesforce/sales-cloud.svg" width="48" alt="Sales Cloud" /><br/><sub><b>Sales Cloud</b></sub></td>
     <td align="center" width="96"><img src="./assets/salesforce/service-cloud.svg" width="48" alt="Service Cloud" /><br/><sub><b>Service Cloud</b></sub></td>
     <td align="center" width="96"><img src="./assets/salesforce/experience-cloud.svg" width="48" alt="Experience Cloud" /><br/><sub><b>Experience Cloud</b></sub></td>
-    <td align="center" width="96"><img src="./assets/salesforce/data-cloud.svg" width="48" alt="Data Cloud" /><br/><sub><b>Data Cloud</b></sub></td>
+    <td align="center" width="96"><img src="./assets/salesforce/data-cloud.svg?v=2" width="48" alt="Data Cloud" /><br/><sub><b>Data Cloud</b></sub></td>
     <td align="center" width="96"><img src="./assets/salesforce/marketing-cloud.svg" width="48" alt="Marketing Cloud" /><br/><sub><b>Marketing Cloud</b></sub></td>
   </tr>
   <tr>

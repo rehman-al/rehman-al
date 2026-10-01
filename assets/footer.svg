@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140">
+  <style>
+    .w1 { animation: wave 9s ease-in-out infinite alternate; }
+    .w2 { animation: wave 13s ease-in-out infinite alternate-reverse; }
+    @keyframes wave { from { transform: translateX(-60px); } to { transform: translateX(0); } }
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#032D60"/><stop offset=".5" stop-color="#0176D3"/><stop offset="1" stop-color="#032D60"/></linearGradient>
+  </defs>
+  <path class="w2" fill="#0176D3" fill-opacity=".35" d="M-60 52c120-30 240-30 360 0s240 30 360 0 240-30 360 0 240 30 360 0V140H-60Z"/>
+  <path class="w1" fill="url(#g)" d="M-60 70c120-28 240-28 360 0s240 28 360 0 240-28 360 0 240 28 360 0V140H-60Z"/>
+  <text x="600" y="118" text-anchor="middle" font-family="'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="20" fill="#FFFFFF" fill-opacity=".9">Thanks for stopping by — let's build something great together.</text>
+</svg>

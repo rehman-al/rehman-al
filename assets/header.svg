@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
+    .c1 { animation: drift 46s linear infinite; animation-delay: -12s; }
+    .c2 { animation: drift 62s linear infinite; animation-delay: -40s; }
+    .c3 { animation: drift 38s linear infinite; animation-delay: -25s; }
+    .float { animation: float 6s ease-in-out infinite; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes drift { from { transform: translateX(-260px); } to { transform: translateX(1460px); } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/><stop offset=".6" stop-color="#0A2347"/><stop offset="1" stop-color="#032D60"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#0176D3" stop-opacity=".45"/><stop offset="1" stop-color="#0176D3" stop-opacity="0"/></radialGradient>
+    <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#00A1E0" stop-opacity="0"/><stop offset=".5" stop-color="#00A1E0"/><stop offset="1" stop-color="#C084FC" stop-opacity="0"/></linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity=".05"/></pattern>
+    <clipPath id="clip"><rect width="1200" height="320" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <circle cx="940" cy="160" r="300" fill="url(#glow)"/>
+    <g class="c1"><g transform="translate(200 80) scale(1.1)" fill="#FFFFFF" opacity=".06"><circle cx="-40" cy="10" r="32"/><circle cx="0" cy="-14" r="40"/><circle cx="36" cy="8" r="34"/><rect x="-40" y="6" width="76" height="36"/></g></g>
+    <g class="c2"><g transform="translate(600 250) scale(0.8)" fill="#FFFFFF" opacity=".06"><circle cx="-40" cy="10" r="32"/><circle cx="0" cy="-14" r="40"/><circle cx="36" cy="8" r="34"/><rect x="-40" y="6" width="76" height="36"/></g></g>
+    <g class="c3"><g transform="translate(900 60) scale(0.6)" fill="#FFFFFF" opacity=".06"><circle cx="-40" cy="10" r="32"/><circle cx="0" cy="-14" r="40"/><circle cx="36" cy="8" r="34"/><rect x="-40" y="6" width="76" height="36"/></g></g>
+
+    <text x="80" y="96" class="sans" font-size="22" fill="#7DD3FC" letter-spacing="2">HI THERE, I'M</text>
+    <text x="78" y="160" class="sans" font-size="66" font-weight="800" fill="#FFFFFF">Rehman Ali</text>
+    <text x="80" y="206" class="sans" font-size="24" fill="#CBD5E1">Salesforce Developer  <tspan fill="#00A1E0">·</tspan>  MERN Stack Developer</text>
+    <g>
+    <rect x="80" y="236" width="64" height="30" rx="15" fill="#60A5FA" fill-opacity=".12" stroke="#60A5FA" stroke-opacity=".55"/><text x="112.0" y="256" text-anchor="middle" class="mono" font-size="15" fill="#60A5FA">Apex</text>
+    <rect x="154" y="236" width="55" height="30" rx="15" fill="#FACC15" fill-opacity=".12" stroke="#FACC15" stroke-opacity=".55"/><text x="181.5" y="256" text-anchor="middle" class="mono" font-size="15" fill="#FACC15">LWC</text>
+    <rect x="219" y="236" width="64" height="30" rx="15" fill="#2DD4BF" fill-opacity=".12" stroke="#2DD4BF" stroke-opacity=".55"/><text x="251.0" y="256" text-anchor="middle" class="mono" font-size="15" fill="#2DD4BF">Flow</text>
+    <rect x="293" y="236" width="109" height="30" rx="15" fill="#A3E635" fill-opacity=".12" stroke="#A3E635" stroke-opacity=".55"/><text x="347.5" y="256" text-anchor="middle" class="mono" font-size="15" fill="#A3E635">REST APIs</text>
+    <rect x="412" y="236" width="73" height="30" rx="15" fill="#7DD3FC" fill-opacity=".12" stroke="#7DD3FC" stroke-opacity=".55"/><text x="448.5" y="256" text-anchor="middle" class="mono" font-size="15" fill="#7DD3FC">React</text>
+    <rect x="495" y="236" width="91" height="30" rx="15" fill="#4ADE80" fill-opacity=".12" stroke="#4ADE80" stroke-opacity=".55"/><text x="540.5" y="256" text-anchor="middle" class="mono" font-size="15" fill="#4ADE80">Node.js</text>
+    </g>
+
+    <g class="float">
+      <rect x="770" y="64" width="350" height="190" rx="16" fill="#0F172A" fill-opacity=".92" stroke="#1E3A5F"/>
+      <circle cx="794" cy="88" r="6" fill="#F87171"/><circle cx="814" cy="88" r="6" fill="#FACC15"/><circle cx="834" cy="88" r="6" fill="#4ADE80"/>
+      <text x="1100" y="93" text-anchor="end" class="mono" font-size="13" fill="#64748B">RehmanAli.cls</text>
+      <g class="mono" font-size="16">
+        <text x="794" y="132" fill="#FACC15">@AuraEnabled</text>
+        <text x="794" y="158"><tspan fill="#C084FC">public static</tspan> <tspan fill="#7DD3FC">String</tspan> <tspan fill="#60A5FA">build</tspan><tspan fill="#E2E8F0">() {</tspan></text>
+        <text x="818" y="184"><tspan fill="#C084FC">return</tspan> <tspan fill="#4ADE80">'scalable apps'</tspan><tspan fill="#E2E8F0">;</tspan></text>
+        <text x="794" y="210" fill="#E2E8F0">}</text>
+        <rect x="808" y="196" width="9" height="18" fill="#00A1E0" class="cursor"/>
+      </g>
+    </g>
+
+    <rect x="0" y="316" width="1200" height="4" fill="url(#line)"/>
+  </g>
+</svg>

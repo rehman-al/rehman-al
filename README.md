@@ -41,31 +41,31 @@
 
 <p align="center">
 
-  <img src="./assets/salesforce/salesforce.svg" width="50" title="Salesforce" alt="Salesforce" />
+  <img src="./assets/salesforce/salesforce.svg" width="48" title="Salesforce" alt="Salesforce" />
   &nbsp;
-  <img src="./assets/salesforce/sales-cloud.svg" width="50" title="Sales Cloud" alt="Sales Cloud" />
+  <img src="./assets/salesforce/sales-cloud.svg" width="48" title="Sales Cloud" alt="Sales Cloud" />
   &nbsp;
-  <img src="./assets/salesforce/service-cloud.svg" width="50" title="Service Cloud" alt="Service Cloud" />
+  <img src="./assets/salesforce/service-cloud.svg" width="48" title="Service Cloud" alt="Service Cloud" />
   &nbsp;
-  <img src="./assets/salesforce/experience-cloud.svg" width="50" title="Experience Cloud" alt="Experience Cloud" />
+  <img src="./assets/salesforce/experience-cloud.svg" width="48" title="Experience Cloud" alt="Experience Cloud" />
   &nbsp;
-  <img src="./assets/salesforce/order-management.svg" width="50" title="Order Management" alt="Order Management" />
+  <img src="./assets/salesforce/order-management.svg" width="48" title="Order Management" alt="Order Management" />
   &nbsp;
-  <img src="./assets/salesforce/data-cloud.svg" width="50" title="Data Cloud" alt="Data Cloud" />
+  <img src="./assets/salesforce/data-cloud.svg" width="48" title="Data Cloud" alt="Data Cloud" />
   &nbsp;
-  <img src="./assets/salesforce/marketing-cloud.svg" width="50" title="Marketing Cloud" alt="Marketing Cloud" />
+  <img src="./assets/salesforce/marketing-cloud.svg" width="48" title="Marketing Cloud" alt="Marketing Cloud" />
 
 </p>
 
 <p align="center">
 
-  <img src="./assets/salesforce/apex.svg" width="50" title="Apex" alt="Apex" />
+  <img src="./assets/salesforce/apex.svg" width="48" title="Apex" alt="Apex" />
   &nbsp;
-  <img src="./assets/salesforce/lwc.svg" width="50" title="Lightning Web Components" alt="LWC" />
+  <img src="./assets/salesforce/lwc.svg" width="48" title="Lightning Web Components" alt="LWC" />
   &nbsp;
-  <img src="./assets/salesforce/flows.svg" width="50" title="Salesforce Flow" alt="Flow" />
+  <img src="./assets/salesforce/flows.svg" width="48" title="Salesforce Flow" alt="Flow" />
   &nbsp;
-  <img src="./assets/salesforce/apex-rest-api.svg" width="50" title="Apex REST API" alt="Apex REST API" />
+  <img src="./assets/salesforce/apex-rest-api.svg" width="48" title="Apex REST API" alt="Apex REST API" />
 
 </p>
 

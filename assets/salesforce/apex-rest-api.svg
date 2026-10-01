@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="#032D60" filter="url(#shadow)"/>
+  <path fill="none" stroke="white" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" d="M31 41h55M77 31l10 10-10 10M97 69H42M51 59 41 69l10 10"/>
+        <rect fill="none" stroke="white" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" x="47" y="48" width="34" height="14" rx="6"/>
+        <text x="64" y="59" text-anchor="middle" font-size="9" font-family="Arial, sans-serif" font-weight="700" fill="white" stroke="none">API</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1156" height="856" viewBox="0 0 1156 856">
+<svg x="0" y="0" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <g fill="#00A1E0"><circle cx="90" cy="144" r="32"/><circle cx="130" cy="120" r="40"/><circle cx="166" cy="142" r="34"/><rect x="90" y="140" width="76" height="36"/></g></svg>
+<svg x="300" y="0" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <path fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke="#4ADE80" d="M72 68v116h116M96 152l28-32 24 20 40-48M160 92h28v28"/></svg>
+<svg x="600" y="0" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <g fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke="#F472B6"><path d="M72 124c0-31 25-56 56-56s56 25 56 56M182 168c0 14-14 24-38 24h-8"/><rect x="60" y="124" width="28" height="44" rx="12"/><rect x="168" y="124" width="28" height="44" rx="12"/></g></svg>
+<svg x="900" y="0" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <g fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke="#C084FC"><circle cx="128" cy="100" r="22"/><circle cx="72" cy="116" r="16"/><circle cx="184" cy="116" r="16"/><path d="M88 184c0-24 18-42 40-42s40 18 40 42M44 180c0-18 12-32 28-32 8 0 14 3 19 8M212 180c0-18-12-32-28-32-8 0-14 3-19 8"/></g></svg>
+<svg x="0" y="300" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <g fill="#818CF8"><circle cx="90" cy="144" r="32"/><circle cx="130" cy="120" r="40"/><circle cx="166" cy="142" r="34"/><rect x="90" y="140" width="76" height="36"/></g>
+  <g fill="none" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" stroke="#242938"><ellipse cx="128" cy="122" rx="22" ry="8"/><path d="M106 122v30c0 4.4 9.8 8 22 8s22-3.6 22-8v-30M106 137c0 4.4 9.8 8 22 8s22-3.6 22-8"/></g></svg>
+<svg x="300" y="300" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <path fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke="#F87171" d="M68 112h28l64-32v96l-64-32H68zM96 144l10 40H86l-10-40M184 104c8 7 12 15 12 24s-4 17-12 24"/></svg>
+<svg x="600" y="300" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <path fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke="#FB923C" d="M128 64l60 30v68l-60 30-60-30V94zM68 94l60 30 60-30M128 124v68M98 79l60 30"/></svg>
+<svg x="900" y="300" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <path fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke="#60A5FA" d="M100 76l-48 52 48 52M156 76l48 52-48 52M142 72l-28 112"/></svg>
+<svg x="0" y="600" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <path fill="#FACC15" stroke="#FACC15" stroke-width="6" stroke-linejoin="round" d="M146 56L84 140h40l-12 60 64-88h-40l10-56z"/></svg>
+<svg x="300" y="600" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <g fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke="#2DD4BF"><rect x="104" y="60" width="48" height="32" rx="8"/><rect x="56" y="164" width="48" height="32" rx="8"/><rect x="152" y="164" width="48" height="32" rx="8"/><path d="M128 92v34M80 164v-38h96v38"/></g><circle cx="128" cy="126" r="9" fill="#2DD4BF"/></svg>
+<svg x="600" y="600" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <path fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke="#A3E635" d="M64 100h112M156 80l20 20-20 20M192 156H80M100 136l-20 20 20 20"/></svg>
+<svg x="900" y="600" width="256" height="256" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>
+  <g fill="#00A1E0"><circle cx="90" cy="144" r="32"/><circle cx="130" cy="120" r="40"/><circle cx="166" cy="142" r="34"/><rect x="90" y="140" width="76" height="36"/></g>
+  <path fill="none" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke="#242938" d="M108 128l-14 14 14 14M150 128l14 14-14 14M136 122l-14 40"/></svg>
+</svg>
